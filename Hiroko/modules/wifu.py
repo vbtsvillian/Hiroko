@@ -1,8 +1,8 @@
 import logging
 import random
 import requests
-from telegram import Update
-from telegram.ext import Updater, CommandHandler, CallbackContext
+from Hiroko import Hiroko
+from Hiroko.ext import Updater, CommandHandler, CallbackContext
 
 # Enable logging
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
