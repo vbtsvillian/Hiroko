@@ -5,8 +5,8 @@ from pyrogram import Client, filters
 from pyrogram.types import Message
 from Hiroko import boot as tim
 from Hiroko import Hiroko
-from config import OWNER_ID as owner
-from config import SUDO_USERS as sudo
+from Hiroko import OWNER_ID as owner
+from Hiroko import SUDO_USERS as sudo
 from pyrogram import filters, __version__
 from platform import python_version
 from pyrogram.types import (
@@ -22,20 +22,20 @@ from pyrogram.types import (
 
 
 photo = [
-"https://graph.org/file/2fc37c68163780e31599f.jpg",
-"https://graph.org/file/3cc07627bdec5f5afab1c.jpg",
-"https://graph.org/file/809fe233d8f7c29c6fd69.jpg",
-"https://graph.org/file/677619500837cd3190c6d.jpg",
-"https://graph.org/file/2a4d6cfdf60a38130aad2.jpg",
-"https://graph.org/file/066ed5867fe94c333c0b6.jpg",
-"https://graph.org/file/bd06b509e025bc656766d.jpg",
-"https://graph.org/file/cd33fd3d193ac98486eff.jpg",
-"https://graph.org/file/9ffb36ba7d53b7894eaba.jpg",
-"https://graph.org/file/fe6dc66f7968ea69dcec0.jpg",
-"https://graph.org/file/917d3b7324a056d66a8cb.jpg",
-"https://graph.org/file/4f46ebdf26f703f1d5e93.jpg",
-"https://graph.org/file/b3d7c31922a85e94e9627.jpg",
-"https://graph.org/file/82560acb529e63c9ddb94.jpg",
+"https://graph.org/file/8e198057d847d87fda7da.jpg",
+"https://graph.org/file/c2fc593e737fad358cfdb.jpg",
+"https://graph.org/file/8dc10e47849b08640eec4.jpg",
+"https://graph.org/file/81ecdf048901982ecc8d8.jpg",
+"https://graph.org/file/c24c72f854e85fd43cf1f.jpg",
+"https://graph.org/file/a209dbc37715b6f468447.jpg",
+"https://graph.org/file/8c385a92033f329da20ff.jpg",
+"https://graph.org/file/1c93a0687c70e540226f8.jpg",
+"https://graph.org/file/a9418e9ea5d8c3c44c996.jpg",
+"https://graph.org/file/3f7abc44fe9f39a1eb4fe.jpg",
+"https://graph.org/file/78b6e4aea6f16c369bb13.jpg",
+"https://graph.org/file/fadcdc2852843c2a00a08.jpg",
+"https://graph.org/file/e3ad70d7ffdd94b53b349.jpg",
+"https://graph.org/file/8cb5220097f727122ac40.jpg",
 
 ]
 
@@ -90,12 +90,12 @@ async def ping(Client, m: Message):
 # ------------------------------------------------------------------------------- #
 
 PING_TEXT = """
-˹ʜɪꝛᴏᴋᴏ ꝛᴏʙᴏᴛ˼ 🇮🇳 sʏsᴛᴇᴍ sᴛᴀᴛs :
+˹ᴠɪʟʟɪᴀɴ ꝛᴏʙᴏᴛ˼  🇮🇳 sʏsᴛᴇᴍ sᴛᴀᴛs :
 
 **ᴘɪɴɢ ᴘᴏɴɢ:** `{}`
 **ʙᴏᴛ ᴜᴘᴛɪᴍᴇ:** `{}`
 **ʟɪʙʀᴀʀʏ:** `ᴘʏʀᴏɢʀᴀᴍ`
-**ᴍʏ ᴍᴀsᴛᴇʀ: ** `sᴜᴍɪᴛ ʏᴀᴅᴀᴠ`
+**ᴍʏ ᴍᴀsᴛᴇʀ: ** `˹ᴠɪʟʟɪᴀɴ ꝛᴏʙᴏᴛ˼`
 **ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ:** `3.10.4`
 **ᴘʏʀᴏɢʀᴀᴍ ᴠᴇʀsɪᴏɴ:** `{}`
 """
@@ -124,7 +124,7 @@ async def alive(_,msg:Message):
     end_time = time.time()
     ping1 = str(round((end_time - start_time) * 1000, 3)) + " ms"    
     x = await msg.reply_photo(photo=random.choice(photo), caption="**ᴀʟɪᴠɪɴɢ....**")    
-    await x.edit_caption("**๏ ˹ʜɪꝛᴏᴋᴏ ꝛᴏʙᴏᴛ˼ ɪs ᴀʟɪᴠᴇ ᴀɴᴅ ᴡᴏʀᴋɪɴɢ ɢᴏᴏᴅ ᴡɪᴛʜ ᴀ ᴘɪɴɢ ᴏғ :**  `{} ᴍs`\n**๏ ʙᴏᴛs sᴇʀᴠɪᴄᴇ ᴜᴘᴛɪᴍᴇ ɪs :** `{}`".format(ping1, up), reply_markup=Button)
+    await x.edit_caption("**๏ ˹ᴠɪʟʟɪᴀɴ ꝛᴏʙᴏᴛ˼ ɪs ᴀʟɪᴠᴇ ᴀɴᴅ ᴡᴏʀᴋɪɴɢ ɢᴏᴏᴅ ᴡɪᴛʜ ᴀ ᴘɪɴɢ ᴏғ :**  `{} ᴍs`\n**๏ ʙᴏᴛs sᴇʀᴠɪᴄᴇ ᴜᴘᴛɪᴍᴇ ɪs :** `{}`".format(ping1, up), reply_markup=Button)
 
 
 
