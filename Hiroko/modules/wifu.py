@@ -11,14 +11,14 @@ logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s
 logger = logging.getLogger(__name__)
 
 # Define your bot token
-TOKEN = "YOUR_BOT_TOKEN"
+TOKEN = "6123273453:AAHrLu47bfHTptowxQUtZ3S-DlLurAh3Nc8"
 
 # Define the API endpoint to fetch waifu images
 API_ENDPOINT = "https://api.waifu.pics/sfw/waifu"
 
 def start(update: Update, context: CallbackContext) -> None:
     """Send a welcome message when the command /start is issued."""
-    update.message.reply_text("Hello! I'm your Waifu Character Grab Bot. Use the /waifu command to get a random waifu character image!")
+    update.message.reply_text("💖")
 
 def waifu(update: Update, context: CallbackContext) -> None:
     """Grab and send a random waifu character image."""
