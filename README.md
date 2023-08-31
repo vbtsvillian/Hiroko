@@ -1,6 +1,6 @@
-#  ˹ʜɪʀᴏᴋᴏ ꝛᴏʙᴏᴛ˼ 
+#  ˹ᴠɪʟʟɪᴀɴ ꝛᴏʙᴏᴛ˼ 
 
-<p align="center"><img src="https://graph.org/file/1aa17a6f7725b70e05f62.jpg" width="300"></a></p>
+<p align="center"><img src="https://graph.org/file/81ecdf048901982ecc8d8.jpg" width="300"></a></p>
 <p align="center">
 
 
@@ -12,4 +12,4 @@
     ─ ᴅᴇᴩʟᴏʏ ᴏɴ ʜᴇʀᴏᴋᴜ ─
 </h3>
 
-<p align="center"><a href="https://dashboard.heroku.com/new?template=https://github.com/Sumit0045/ZebraRobot"> <img src="https://img.shields.io/badge/Deploy%20On%20Heroku-black?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
+<p align="center"><a href="https://dashboard.heroku.com/new?template=https://github.com/vbtsvillian/Hiroko"> <img src="https://img.shields.io/badge/Deploy%20On%20Heroku-black?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
