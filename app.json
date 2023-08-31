@@ -1,9 +1,9 @@
 {
-    "name": "ʜɪʀᴏᴋᴏ ʀᴏʙᴏᴛ",
-    "logo": "https://te.legra.ph/file/086426b04c04a3c16f558.jpg",
-    "description": "sɪᴍᴘʟᴇ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ᴏʀ ᴛʜɪs ʙᴏᴛ ᴍᴀɪɴ ᴘᴜʀᴘᴏsᴇ sᴘʀᴇᴀᴅ ʜᴀᴘᴘɪɴᴇss.",
+    "name": "ᴠɪʟʟɪᴀɴ",
+    "logo": "https://graph.org/file/a00d18ee50c6e8a4c0e94.jpg",
+    "description": "ᴀɴ ᴀᴅᴠᴀɴᴄᴇᴅ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ғᴏʀ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ ᴅᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ ᴠɪʟʟɪᴀɴ.",
     "keywords": ["management", "assistant", "pyrogram"],
-    "repository": "https://github.com/Sumit0045/HirokoRobot",
+    "repository": "https://github.com/vbtsvillian/Hiroko",
     "stack": "container",
     "env": {
         "BOT_USERNAME": {
